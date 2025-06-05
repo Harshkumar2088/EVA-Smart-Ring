@@ -14,8 +14,8 @@ const Header = () => {
     { label: 'Dashboard', path: '/user-dashboard-wellness-overview', icon: 'LayoutDashboard' },
     { label: 'How It Works', path: '/how-it-works', icon: 'Sparkles' },
     { label: 'Privacy Sanctuary', path: '/privacy-sanctuary', icon: 'Shield' },
-    { label: 'Wellness Center', path: '/wellness-resource-center', icon: 'Heart' },
-    { label: 'Community Stories', path: '/community-stories', icon: 'Users' },
+    // { label: 'Wellness Center', path: '/wellness-resource-center', icon: 'Heart' },
+    // { label: 'Community Stories', path: '/community-stories', icon: 'Users' },
     { label: 'Research Hub', path: '/research-hub', icon: 'BookOpen' },
     { label: 'Product', path: '/product-details-pre-order', icon: 'Package' },
     
@@ -44,7 +44,7 @@ const Header = () => {
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-1000 bg-background border-b border-border-light">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-14xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <Link to="/homepage-product-landing" className="flex items-center space-x-2 haptic-feedback">
@@ -62,7 +62,7 @@ const Header = () => {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className={`flex items-center space-x-2 px-3 py-2 rounded-organic gentle-transition haptic-feedback ${
+                  className={`flex items-center space-x-1 px-2 py-1 rounded-organic gentle-transition haptic-feedback ${
                     isActivePath(item.path)
                       ? 'bg-primary-100 text-primary-700' :'text-text-secondary hover:text-text-primary hover:bg-surface'
                   }`}

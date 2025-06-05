@@ -35,7 +35,7 @@ const HeroSection = () => {
               Discover the power of emotional awareness with WellnessRing - the smart ring that tracks your emotional patterns, provides personalized insights, and guides you toward better mental wellness.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
+            {/* <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
               <Link
                 to="/product-details-pre-order"
                 className="inline-flex items-center justify-center space-x-2 px-8 py-4 bg-primary text-text-inverse rounded-organic font-body font-semibold gentle-transition haptic-feedback hover:bg-primary-600 shadow-soft-elevation-2"
@@ -48,10 +48,10 @@ const HeroSection = () => {
                 <Icon name="Play" size={20} />
                 <span>Watch Demo</span>
               </button>
-            </div>
+            </div> */}
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 max-w-md mx-auto lg:mx-0">
+            {/* <div className="grid grid-cols-3 gap-6 max-w-md mx-auto lg:mx-0">
               <div className="text-center lg:text-left">
                 <div className="font-heading font-bold text-2xl text-text-primary">10K+</div>
                 <div className="font-body text-sm text-text-secondary">Early Adopters</div>
@@ -64,7 +64,7 @@ const HeroSection = () => {
                 <div className="font-heading font-bold text-2xl text-text-primary">24/7</div>
                 <div className="font-body text-sm text-text-secondary">Monitoring</div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Product Image */}
@@ -80,9 +80,9 @@ const HeroSection = () => {
                   />
                   
                   {/* Floating Elements */}
-                  <div className="absolute -top-4 -right-4 bg-accent text-text-inverse px-4 py-2 rounded-full font-body font-semibold text-sm shadow-soft-elevation-2">
+                  {/* <div className="absolute -top-4 -right-4 bg-accent text-text-inverse px-4 py-2 rounded-full font-body font-semibold text-sm shadow-soft-elevation-2">
                     $299
-                  </div>
+                  </div> */}
                   
                   <div className="absolute -bottom-4 -left-4 bg-success text-text-inverse px-4 py-2 rounded-full font-body font-medium text-sm shadow-soft-elevation-2 flex items-center space-x-2">
                     <Icon name="CheckCircle" size={16} />

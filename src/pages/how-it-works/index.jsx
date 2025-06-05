@@ -39,10 +39,10 @@ const HowItWorks = () => {
   ];
 
   const culturalLenses = [
-    { id: 'universal', name: 'Universal', icon: 'Globe', color: 'primary' },
-    { id: 'eastern', name: 'Eastern', icon: 'Sun', color: 'amber' },
-    { id: 'indigenous', name: 'Indigenous', icon: 'Leaf', color: 'sage' },
-    { id: 'western', name: 'Western', icon: 'Mountain', color: 'secondary' }
+    // { id: 'universal', name: 'Universal', icon: 'Globe', color: 'primary' },
+    // { id: 'eastern', name: 'Eastern', icon: 'Sun', color: 'amber' },
+    // { id: 'indigenous', name: 'Indigenous', icon: 'Leaf', color: 'sage' },
+    // { id: 'western', name: 'Western', icon: 'Mountain', color: 'secondary' }
   ];
 
   const demoStats = [

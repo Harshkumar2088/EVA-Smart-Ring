@@ -15,7 +15,7 @@ const ProductDetailsPreOrder = () => {
 
   const productData = {
     id: 'wellness-ring-pro',
-    name: 'WellnessRing Pro',
+    name: 'Smart Ring Pro',
     tagline: 'Your Personal Emotional Intelligence Companion',
     price: 299,
     originalPrice: 399,
@@ -193,7 +193,7 @@ Built with medical-grade sensors and a titanium body, the WellnessRing Pro offer
           {/* Product Description */}
           <section>
             <h2 className="font-heading font-bold text-2xl lg:text-3xl text-text-primary mb-6">
-              About WellnessRing Pro
+              About SmartRing Pro
             </h2>
             <div className="prose prose-lg max-w-none text-text-secondary">
               <p className="mb-4">{productData.description}</p>
@@ -218,20 +218,20 @@ Built with medical-grade sensors and a titanium body, the WellnessRing Pro offer
               {[
                 {
                   name: 'WellnessRing Charging Dock',
-                  price: 49,
-                  image: 'https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=400&h=300&fit=crop',
+                  price: 19,
+                  image: 'https://m.media-amazon.com/images/I/613svUkqvOL.jpg',
                   description: 'Elegant wireless charging station'
                 },
                 {
                   name: 'Premium Ring Sizing Kit',
-                  price: 19,
-                  image: 'https://images.unsplash.com/photo-1506629905607-45c8e8e8b5f3?w=400&h=300&fit=crop',
+                  price: 17,
+                  image: 'https://media.jaycar.com.au/product/images/QC3156_smart-ring-with-charging-case-medium-black_157815.jpg',
                   description: 'Ensure perfect fit before ordering'
                 },
                 {
                   name: 'WellnessRing Care Kit',
-                  price: 29,
-                  image: 'https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=300&fit=crop',
+                  price: 15,
+                  image: 'https://image.made-in-china.com/2f0j00oBplqhNgrFUS/Sr05-Smart-Ring-Health-Tracker-Blood-Pressure-Monitor-Android-ISO-Finger-Rings-Smart-Sleep.webp',
                   description: 'Complete cleaning and maintenance set'
                 }
               ].map((product, index) => (

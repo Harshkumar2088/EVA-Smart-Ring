@@ -27,27 +27,27 @@ const CulturalIntelligenceSection = () => {
   ];
 
   const testimonials = [
-    {
-      id: 1,
-      name: "Maria Rodriguez",
-      location: "Barcelona, Spain",
-      avatar: "https://randomuser.me/api/portraits/women/32.jpg",
-      quote: "WellnessRing helped me understand how my Mediterranean lifestyle affects my emotional patterns. The cultural insights are incredibly valuable."
-    },
-    {
-      id: 2,
-      name: "Kenji Tanaka",
-      location: "Tokyo, Japan",
-      avatar: "https://randomuser.me/api/portraits/men/45.jpg",
-      quote: "The ring respects Japanese concepts of emotional harmony while providing modern insights. It\'s perfectly balanced for my lifestyle."
-    },
-    {
-      id: 3,
-      name: "Amara Okafor",
-      location: "Lagos, Nigeria",
-      avatar: "https://randomuser.me/api/portraits/women/28.jpg",
-      quote: "Finally, a wellness device that understands African emotional expressions and community-centered well-being approaches."
-    }
+    // {
+    //   id: 1,
+    //   name: "Maria Rodriguez",
+    //   location: "Barcelona, Spain",
+    //   avatar: "https://randomuser.me/api/portraits/women/32.jpg",
+    //   quote: "WellnessRing helped me understand how my Mediterranean lifestyle affects my emotional patterns. The cultural insights are incredibly valuable."
+    // },
+    // {
+    //   id: 2,
+    //   name: "Kenji Tanaka",
+    //   location: "Tokyo, Japan",
+    //   avatar: "https://randomuser.me/api/portraits/men/45.jpg",
+    //   quote: "The ring respects Japanese concepts of emotional harmony while providing modern insights. It\'s perfectly balanced for my lifestyle."
+    // },
+    // {
+    //   id: 3,
+    //   name: "Amara Okafor",
+    //   location: "Lagos, Nigeria",
+    //   avatar: "https://randomuser.me/api/portraits/women/28.jpg",
+    //   quote: "Finally, a wellness device that understands African emotional expressions and community-centered well-being approaches."
+    // }
   ];
 
   return (
@@ -124,7 +124,7 @@ const CulturalIntelligenceSection = () => {
                 />
               ))}
             </div>
-            <span className="font-body text-text-secondary">Join 10,000+ users from 50+ countries</span>
+            {/* <span className="font-body text-text-secondary">Join 10,000+ users from 50+ countries</span> */}
           </div>
         </div>
       </div>

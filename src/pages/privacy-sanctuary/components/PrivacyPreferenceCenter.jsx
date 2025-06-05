@@ -56,12 +56,12 @@ const PrivacyPreferenceCenter = () => {
       icon: 'Clock',
       description: 'Set how long different types of data are kept'
     },
-    {
-      id: 'cultural',
-      name: 'Cultural Settings',
-      icon: 'Globe',
-      description: 'Configure cultural privacy preferences and community sharing'
-    },
+    // {
+    //   id: 'cultural',
+    //   name: 'Cultural Settings',
+    //   icon: 'Globe',
+    //   description: 'Configure cultural privacy preferences and community sharing'
+    // },
     {
       id: 'notifications',
       name: 'Privacy Alerts',

@@ -20,7 +20,7 @@ const CustomerTestimonials = () => {
 The battery life is exceptional - I only charge it once a week, and the sleep tracking has revealed patterns I never knew existed. The companion app is intuitive and the AI insights are genuinely helpful, not just generic advice.`,
       helpful: 47,
       images: [
-        'https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=200&h=200&fit=crop','https://images.unsplash.com/photo-1544117519-31a4b719223d?w=200&h=200&fit=crop'
+        'https://cdn.shopify.com/s/files/1/0015/6932/5091/files/smart-ring-advanced-health-monitoring-with-heart-rate-spo2-ip68-waterproof-long-lasting-battery-app-control-and-elegant-rose-gold-design-by-electroniksindia-481.webp','https://media.jaycar.com.au/product/images/QC3160_smart-ring-with-charging-case-large-black_157822.jpg'
       ]
     },
     {

@@ -41,9 +41,9 @@ const Footer = () => {
   ];
 
   const contactInfo = [
-    { icon: 'Mail', text: 'hello@wellnessring.com' },
-    { icon: 'Phone', text: '+1 (555) 123-4567' },
-    { icon: 'MapPin', text: 'San Francisco, CA' }
+    { icon: 'Mail', text: 'mdoffice@dkgrouplabs.com' },
+    { icon: 'Phone', text: '+91-9810805605' },
+    { icon: 'MapPin', text: '201C/6, 2nd floor, D-21 Corporate Park, New Delhi – 110077' }
   ];
 
   return (
@@ -58,7 +58,7 @@ const Footer = () => {
                 <Icon name="Heart" size={24} color="white" />
               </div>
               <span className="font-heading font-semibold text-xl">
-                WellnessRing
+                SmartRing
               </span>
             </Link>
             

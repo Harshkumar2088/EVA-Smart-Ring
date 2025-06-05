@@ -18,7 +18,7 @@ const PrivacySanctuary = () => {
   const navigationSections = [
     { id: 'vault', name: 'Memory Vault', icon: 'Shield', description: 'Interactive 3D data visualization' },
     { id: 'journey', name: 'Data Journey', icon: 'Route', description: 'Complete lifecycle transparency' },
-    { id: 'cultural', name: 'Cultural Privacy', icon: 'Globe', description: 'Regional privacy respect' },
+    // { id: 'cultural', name: 'Cultural Privacy', icon: 'Globe', description: 'Regional privacy respect' },
     { id: 'reports', name: 'Transparency Reports', icon: 'FileText', description: 'Real-time security audits' },
     { id: 'preferences', name: 'Preference Center', icon: 'Settings', description: 'Granular data control' },
     { id: 'deletion', name: 'Deletion Simulator', icon: 'Trash2', description: 'Experience data removal' },

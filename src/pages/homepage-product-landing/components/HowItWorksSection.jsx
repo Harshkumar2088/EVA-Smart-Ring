@@ -75,12 +75,12 @@ const HowItWorksSection = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center mt-16">
+        {/* <div className="text-center mt-16">
           <div className="inline-flex items-center space-x-2 px-6 py-3 bg-surface rounded-organic">
             <Icon name="Clock" size={20} color="var(--color-text-secondary)" />
             <span className="font-body text-text-secondary">Setup takes less than 5 minutes</span>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
