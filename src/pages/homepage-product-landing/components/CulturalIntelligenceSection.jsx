@@ -51,7 +51,7 @@ const CulturalIntelligenceSection = () => {
   ];
 
   return (
-    <section className="py-20 lg:py-32 bg-gradient-to-br from-secondary-50 via-background to-primary-50">
+    <section className="py-20 lg:py-20 bg-gradient-to-br from-secondary-50 via-background to-primary-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
@@ -83,9 +83,10 @@ const CulturalIntelligenceSection = () => {
             </div>
           ))}
         </div>
+        
 
         {/* Testimonials */}
-        <div className="grid lg:grid-cols-3 gap-8">
+        {/* <div className="grid lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="bg-background rounded-organic-lg p-6 shadow-soft-elevation-1 hover:shadow-soft-elevation-2 gentle-transition">
               <div className="flex items-center space-x-4 mb-4">
@@ -109,10 +110,10 @@ const CulturalIntelligenceSection = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
 
         {/* CTA */}
-        <div className="text-center mt-16">
+        {/* <div className="text-center mt-16">
           <div className="inline-flex items-center space-x-4 px-8 py-4 bg-background rounded-organic shadow-soft-elevation-1">
             <div className="flex -space-x-2">
               {testimonials.map((testimonial) => (
@@ -124,10 +125,10 @@ const CulturalIntelligenceSection = () => {
                 />
               ))}
             </div>
-            {/* <span className="font-body text-text-secondary">Join 10,000+ users from 50+ countries</span> */}
           </div>
-        </div>
+        </div> */}
       </div>
+            {/* <span className="font-body text-text-secondary">Join 10,000+ users from 50+ countries</span> */}
     </section>
   );
 };

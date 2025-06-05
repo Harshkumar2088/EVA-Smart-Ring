@@ -49,7 +49,7 @@ const Header = () => {
             {/* Logo */}
             <Link to="/homepage-product-landing" className="flex items-center space-x-2 haptic-feedback">
               <div className="w-8 h-8 lg:w-10 lg:h-10 bg-gradient-to-br from-primary to-secondary rounded-organic flex items-center justify-center">
-                <Icon name="Heart" size={20} color="white" className="lg:w-6 lg:h-6" />
+                <Icon name="Circle" size={20} color="white" className="lg:w-6 lg:h-6" />
               </div>
               <span className="font-heading font-semibold text-lg lg:text-xl text-text-primary">
                 SmartRing

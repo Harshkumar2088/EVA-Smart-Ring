@@ -69,7 +69,7 @@ const NewsletterSection = () => {
   }
 
   return (
-    <section className="py-20 lg:py-32 bg-gradient-to-br from-primary-50 to-secondary-50">
+    <section className="py-4 lg:py-6 bg-gradient-to-br from-primary-50 to-secondary-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Content */}

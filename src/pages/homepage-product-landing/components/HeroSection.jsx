@@ -84,16 +84,16 @@ const HeroSection = () => {
                     $299
                   </div> */}
                   
-                  <div className="absolute -bottom-4 -left-4 bg-success text-text-inverse px-4 py-2 rounded-full font-body font-medium text-sm shadow-soft-elevation-2 flex items-center space-x-2">
-                    <Icon name="CheckCircle" size={16} />
-                    <span>FDA Approved</span>
-                  </div>
+                  {/* <div className="absolute -bottom-4 -left-4 bg-success text-text-inverse px-4 py-2 rounded-full font-body font-medium text-sm shadow-soft-elevation-2 flex items-center space-x-2">
+                    <Icon name="CheckCircle" size={16} /> */}
+                    {/* <span>FDA Approved</span> */}
+                  {/* </div> */}
                 </div>
               </div>
             </div>
 
             {/* Floating Cards */}
-            <div className="absolute top-10 -left-6 bg-background rounded-organic p-4 shadow-soft-elevation-2 max-w-xs hidden lg:block">
+            {/* <div className="absolute top-10 -left-6 bg-background rounded-organic p-4 shadow-soft-elevation-2 max-w-xs hidden lg:block">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 bg-primary-100 rounded-full flex items-center justify-center">
                   <Icon name="Heart" size={20} color="#4A90A4" />
@@ -103,9 +103,9 @@ const HeroSection = () => {
                   <div className="font-body text-text-secondary text-xs">72 BPM</div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="absolute bottom-10 -right-6 bg-background rounded-organic p-4 shadow-soft-elevation-2 max-w-xs hidden lg:block">
+            {/* <div className="absolute bottom-10 -right-6 bg-background rounded-organic p-4 shadow-soft-elevation-2 max-w-xs hidden lg:block">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 bg-secondary-100 rounded-full flex items-center justify-center">
                   <Icon name="Brain" size={20} color="#7B9E87" />
@@ -115,15 +115,15 @@ const HeroSection = () => {
                   <div className="font-body text-text-secondary text-xs">Low</div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <Icon name="ChevronDown" size={24} color="var(--color-text-secondary)" />
-      </div>
+      </div> */}
     </section>
   );
 };
