@@ -37,14 +37,14 @@ Built with medical-grade sensors and a titanium body, the WellnessRing Pro offer
       'Companion app with AI insights'
     ],
     specifications: {
-      'Dimensions': '20mm x 8mm x 2.5mm',
-      'Weight': '4.2g',
-      'Battery Life': '7 days typical use',
-      'Water Resistance': 'IP68 (100m)',
-      'Connectivity': 'Bluetooth 5.2, NFC',
-      'Sensors': 'PPG, Accelerometer, Gyroscope, Temperature',
-      'Materials': 'Titanium body, Hypoallergenic coating',
-      'Compatibility': 'iOS 14+, Android 8+'
+      'Dimensions': '20 mm × 7.5 mm × 2.7 mm',
+      'Weight': '4.5 grams',
+      'Battery Life': '4–5 days',
+      'Water Resistance': 'IP68 (100m) certified',
+      'Connectivity': 'Bluetooth 5.0',
+      'Sensors': 'Optical PPG (Heart Rate, SpO2),Skin Temperature Sensor,3D Accelerometer,Capacitive Pressure Sensor',
+      'Materials': 'Titanium body with hypoallergenic inner lining',
+      'Compatibility': 'Android 8.0+'
     },
     sizes: [
       { size: 'S', diameter: '16.5mm', circumference: '52mm' },
@@ -210,7 +210,7 @@ Built with medical-grade sensors and a titanium body, the WellnessRing Pro offer
           <ProductFAQ />
 
           {/* Related Products */}
-          <section>
+          {/* <section>
             <h2 className="font-heading font-bold text-2xl lg:text-3xl text-text-primary mb-8">
               Complete Your Wellness Journey
             </h2>
@@ -254,7 +254,7 @@ Built with medical-grade sensors and a titanium body, the WellnessRing Pro offer
                 </div>
               ))}
             </div>
-          </section>
+          </section> */}
         </div>
       </div>
 

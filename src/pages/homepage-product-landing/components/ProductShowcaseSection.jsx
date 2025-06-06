@@ -120,20 +120,20 @@ const ProductShowcaseSection = () => {
   //           </div>
   //         </div>
 
-  //         {/* Product Details */}
-  //         <div>
-  //           <div className="mb-8">
-  //             <div className="flex items-center space-x-4 mb-4">
-  //               <span className="font-heading font-bold text-3xl text-text-primary">$299</span>
-  //               <span className="font-body text-text-secondary line-through">$399</span>
-  //               <span className="px-3 py-1 bg-accent text-text-inverse rounded-full font-body font-medium text-sm">
-  //                 25% Off
-  //               </span>
-  //             </div>
-  //             <p className="font-body text-text-secondary mb-6">
-  //               Pre-order now and save $100. Limited time offer for early adopters.
-  //             </p>
-  //           </div>
+          // {/* Product Details */}
+          // <div>
+          //   <div className="mb-8">
+          //     <div className="flex items-center space-x-4 mb-4">
+          //       <span className="font-heading font-bold text-3xl text-text-primary">$299</span>
+          //       <span className="font-body text-text-secondary line-through">$399</span>
+          //       <span className="px-3 py-1 bg-accent text-text-inverse rounded-full font-body font-medium text-sm">
+          //         25% Off
+          //       </span>
+          //     </div>
+          //     <p className="font-body text-text-secondary mb-6">
+          //       Pre-order now and save $100. Limited time offer for early adopters.
+          //     </p>
+          //   </div>
 
   //           {/* Key Features */}
   //           <div className="grid grid-cols-2 gap-4 mb-8">

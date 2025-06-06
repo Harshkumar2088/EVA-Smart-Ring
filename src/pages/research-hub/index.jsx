@@ -189,7 +189,7 @@ Results show that our privacy-first approach maintains 94% of the accuracy of ce
     { id: 'research', label: 'Research & Partnerships', icon: 'Users' },
     { id: 'technical', label: 'Technical Demos', icon: 'Code' },
     { id: 'roadmap', label: 'Innovation Roadmap', icon: 'Map' },
-    { id: 'opensource', label: 'Open Source', icon: 'Github' }
+    // { id: 'opensource', label: 'Open Source', icon: 'Github' }
   ];
 
   return (
@@ -609,12 +609,23 @@ const insights = await whisperRing.analyze({
               Join Community
             </Link>
             <Link
+  to="/contact-email"
+  className="px-8 py-4 border-2 border-primary text-primary-700 font-heading font-medium rounded-brand transition-whisper whisper-ripple hover:bg-primary/10"
+>
+  <Icon name="Mail" size={20} className="inline mr-2" />
+  Email Us
+</Link>
+
+
+            <Link
               to="/privacy-sanctuary-memory-vault"
               className="px-8 py-4 border-2 border-primary text-primary-700 font-heading font-medium rounded-brand transition-whisper whisper-ripple hover:bg-primary/10"
             >
               <Icon name="Shield" size={20} className="inline mr-2" />
               Privacy First
             </Link>
+            
+            
           </div>
         </div>
       </section>

@@ -180,7 +180,7 @@ What surprised me most is how it tracks recovery and suggests when I should take
 
       {/* Review Summary */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        <div className="lg:col-span-2">
+        {/* <div className="lg:col-span-2">
           <h3 className="font-body font-semibold text-text-primary mb-4">Rating Breakdown</h3>
           <div className="space-y-3">
             {[
@@ -205,9 +205,9 @@ What surprised me most is how it tracks recovery and suggests when I should take
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
-        <div>
+        {/* <div>
           <h3 className="font-body font-semibold text-text-primary mb-4">Most Mentioned</h3>
           <div className="space-y-2">
             {[
@@ -223,7 +223,7 @@ What surprised me most is how it tracks recovery and suggests when I should take
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -26,42 +26,42 @@ const PrivacySanctuary = () => {
   ];
 
   const complianceBadges = [
-    { name: 'GDPR Compliant', icon: 'CheckCircle', color: 'text-success' },
-    { name: 'CCPA Certified', icon: 'Shield', color: 'text-primary-600' },
-    { name: 'SOC 2 Type II', icon: 'Award', color: 'text-secondary-600' },
-    { name: 'ISO 27001', icon: 'Star', color: 'text-amber' },
-    { name: 'HIPAA Ready', icon: 'Heart', color: 'text-accent' }
+    // { name: 'GDPR Compliant', icon: 'CheckCircle', color: 'text-success' },
+    // { name: 'CCPA Certified', icon: 'Shield', color: 'text-primary-600' },
+    // { name: 'SOC 2 Type II', icon: 'Award', color: 'text-secondary-600' },
+    // { name: 'ISO 27001', icon: 'Star', color: 'text-amber' },
+    // { name: 'HIPAA Ready', icon: 'Heart', color: 'text-accent' }
   ];
 
   const downloadableGuides = [
-    { 
-      title: 'Privacy Guide - English', 
-      description: 'Comprehensive privacy documentation',
-      language: 'English',
-      size: '2.4 MB',
-      icon: 'Download'
-    },
-    { 
-      title: 'Privacy Guide - Español', 
-      description: 'Documentación completa de privacidad',
-      language: 'Spanish',
-      size: '2.6 MB',
-      icon: 'Download'
-    },
-    { 
-      title: 'Privacy Guide - 中文', 
-      description: '全面的隐私文档',
-      language: 'Chinese',
-      size: '2.8 MB',
-      icon: 'Download'
-    },
-    { 
-      title: 'Privacy Guide - العربية', 
-      description: 'وثائق الخصوصية الشاملة',
-      language: 'Arabic',
-      size: '2.5 MB',
-      icon: 'Download'
-    }
+    // { 
+    //   title: 'Privacy Guide - English', 
+    //   description: 'Comprehensive privacy documentation',
+    //   language: 'English',
+    //   size: '2.4 MB',
+    //   icon: 'Download'
+    // },
+    // { 
+    //   title: 'Privacy Guide - Español', 
+    //   description: 'Documentación completa de privacidad',
+    //   language: 'Spanish',
+    //   size: '2.6 MB',
+    //   icon: 'Download'
+    // },
+    // { 
+    //   title: 'Privacy Guide - 中文', 
+    //   description: '全面的隐私文档',
+    //   language: 'Chinese',
+    //   size: '2.8 MB',
+    //   icon: 'Download'
+    // },
+    // { 
+    //   title: 'Privacy Guide - العربية', 
+    //   description: 'وثائق الخصوصية الشاملة',
+    //   language: 'Arabic',
+    //   size: '2.5 MB',
+    //   icon: 'Download'
+    // }
   ];
 
   const securityCertifications = [
@@ -234,7 +234,7 @@ const PrivacySanctuary = () => {
       </section>
 
       {/* Downloadable Guides */}
-      <section className="py-16 bg-surface/50">
+      {/* <section className="py-16 bg-surface/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-heading font-semibold text-text-primary mb-4">
@@ -280,7 +280,7 @@ const PrivacySanctuary = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Trust & Security Footer */}
       <section className="py-16 bg-gradient-to-br from-primary/5 to-secondary/5">

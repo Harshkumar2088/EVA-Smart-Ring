@@ -11,13 +11,13 @@ const ProductSpecs = ({ specifications, features }) => {
   ];
 
   const compatibilityData = [
-    {
-      platform: 'iOS',
-      version: '14.0 or later',
-      devices: 'iPhone 8 and newer',
-      features: ['Full app functionality', 'Real-time sync', 'Voice commands', 'Health app integration'],
-      icon: 'Smartphone'
-    },
+    // {
+    //   platform: 'iOS',
+    //   version: '14.0 or later',
+    //   devices: 'iPhone 8 and newer',
+    //   features: ['Full app functionality', 'Real-time sync', 'Voice commands', 'Health app integration'],
+    //   icon: 'Smartphone'
+    // },
     {
       platform: 'Android',
       version: '8.0 (API level 26) or later',

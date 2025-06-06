@@ -199,10 +199,10 @@ const Footer = () => {
                 <Icon name="Shield" size={14} color="#10B981" />
                 <span className="font-body text-gray-300 text-xs">SSL Secured</span>
               </div>
-              <div className="flex items-center space-x-2 px-3 py-1 bg-gray-800 rounded-organic">
+              {/* <div className="flex items-center space-x-2 px-3 py-1 bg-gray-800 rounded-organic">
                 <Icon name="Award" size={14} color="#F59E0B" />
                 <span className="font-body text-gray-300 text-xs">FDA Approved</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

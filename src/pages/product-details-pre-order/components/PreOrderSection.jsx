@@ -13,13 +13,13 @@ const PreOrderSection = ({ quantity, setQuantity, onAddToCart, isAddedToCart, pr
       amount: price,
       savings: 0
     },
-    {
-      id: 'installment',
-      label: 'Pay in 3 Installments',
-      description: '3 payments of $100',
-      amount: 100,
-      savings: 0
-    },
+    // {
+    //   id: 'installment',
+    //   label: 'Pay in 3 Installments',
+    //   description: '3 payments of $100',
+    //   amount: 100,
+    //   savings: 0
+    // },
     {
       id: 'deposit',
       label: 'Pre-order Deposit',
@@ -134,7 +134,7 @@ const PreOrderSection = ({ quantity, setQuantity, onAddToCart, isAddedToCart, pr
 
       {/* Action Buttons */}
       <div className="space-y-3">
-        <button
+        {/* <button
           onClick={onAddToCart}
           className={`w-full py-4 rounded-organic font-body font-semibold text-lg gentle-transition haptic-feedback ${
             isAddedToCart
@@ -155,7 +155,7 @@ const PreOrderSection = ({ quantity, setQuantity, onAddToCart, isAddedToCart, pr
               </span>
             </div>
           )}
-        </button>
+        </button> */}
 
         <button className="w-full py-3 border border-border text-text-primary rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-surface">
           <div className="flex items-center justify-center space-x-2">
