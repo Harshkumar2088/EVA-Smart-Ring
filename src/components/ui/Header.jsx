@@ -91,7 +91,7 @@ const Header = () => {
                 className="flex items-center space-x-2 px-4 py-2 bg-primary text-text-inverse rounded-organic gentle-transition haptic-feedback hover:bg-primary-600"
               >
                 <Icon name="User" size={18} />
-                <span className="font-body font-medium">Account</span>
+                <span className="font-body font-medium">Register</span>
               </button>
             </div>
 
@@ -239,6 +239,15 @@ const Header = () => {
               </div>
               
               <form className="space-y-4">
+                <div>
+                  <label className="block text-sm font-caption text-text-secondary mb-2">Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    className="w-full px-4 py-3 border border-border rounded-organic focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent gentle-transition"
+                    placeholder="Enter your name"
+                  />
+                </div>
                 <div>
                   <label className="block text-sm font-caption text-text-secondary mb-2">Email</label>
                   <input

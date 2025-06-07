@@ -212,7 +212,7 @@ Results show that our privacy-first approach maintains 94% of the accuracy of ce
               collaborative development, and transparent innovation
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="px-8 py-4 bg-plum text-white font-heading font-medium rounded-brand transition-whisper whisper-ripple hover:shadow-whisper hover:scale-105">
                 <Icon name="Download" size={20} className="inline mr-2" />
                 Download Research Papers
@@ -221,7 +221,7 @@ Results show that our privacy-first approach maintains 94% of the accuracy of ce
                 <Icon name="Github" size={20} className="inline mr-2" />
                 Explore Open Source
               </button>
-            </div>
+            </div> */}
           </div>
 
           {/* Stats Grid */}
