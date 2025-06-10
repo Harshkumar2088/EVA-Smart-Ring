@@ -354,14 +354,21 @@ const PrivacySanctuary = () => {
                   <Icon name="ArrowLeft" size={20} />
                   <span>Back to Home</span>
                 </Link>
-                
-                <Link
+
+                <a
+        href="mailto:mdoffice@dkgrouplabs.com"
+        className="flex items-center justify-center space-x-2 px-6 py-3 border border-primary text-primary rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-primary-100"
+      >
+        <Icon name="Mail" size={18} />
+        <span>Email Us</span>
+      </a>                
+                {/* <Link
                   to="/how-it-works-ai-companion-demo"
                   className="inline-flex items-center space-x-2 px-6 py-3 bg-primary text-white font-heading font-medium rounded-brand transition-whisper whisper-ripple hover:shadow-whisper hover:scale-105"
                 >
                   <span>See How It Works</span>
                   <Icon name="ArrowRight" size={20} />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

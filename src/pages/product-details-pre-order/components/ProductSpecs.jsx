@@ -153,7 +153,7 @@ const ProductSpecs = ({ specifications, features }) => {
                   <span className="font-medium text-text-primary">{size.size}</span>
                   <span className="text-text-secondary">{size.circumference}</span>
                   <span className="text-text-secondary">{size.diameter}</span>
-                  <span className="text-text-secondary">US {size.us}</span>
+                  {/* <span className="text-text-secondary">US {size.us}</span> */}
                 </div>
               ))}
             </div>

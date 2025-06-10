@@ -46,7 +46,7 @@ const RingStatusCard = () => {
     <div className="bg-background border border-border-light rounded-organic-lg p-6 soft-elevation-1">
       <div className="flex items-center justify-between mb-6">
         <h3 className="font-heading font-semibold text-lg text-text-primary">
-          WellnessRing Status
+          SmartRing Status
         </h3>
         <div className={`flex items-center space-x-2 px-3 py-1 rounded-organic ${
           isConnected ? 'bg-secondary-100 text-secondary-700' : 'bg-error-100 text-error-700'

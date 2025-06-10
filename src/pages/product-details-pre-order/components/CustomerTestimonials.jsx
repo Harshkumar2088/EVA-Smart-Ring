@@ -8,55 +8,60 @@ const CustomerTestimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Sarah Chen',
+      name: 'Anand Sharma',
       role: 'Wellness Coach',
-      location: 'San Francisco, CA',
-      avatar: 'https://randomuser.me/api/portraits/women/32.jpg',
+      location: 'New Delhi',
+      avatar: './assets/images/AnandSharma.png',
       rating: 5,
-      date: '2 weeks ago',
+      date: '1 weeks ago',
       verified: true,
-      content: `The WellnessRing Pro has completely transformed how I understand my emotional patterns. As a wellness coach, I've tried many devices, but this one stands out for its accuracy and insights. The real-time emotion detection helps me guide my clients better and manage my own stress levels throughout the day.
-
-The battery life is exceptional - I only charge it once a week, and the sleep tracking has revealed patterns I never knew existed. The companion app is intuitive and the AI insights are genuinely helpful, not just generic advice.`,
-      helpful: 47,
+      content: `This app has become my safe space. The journaling feels like I'm actually being heard, and the companion's replies are warm and nonjudgmental. I love how the ring tracks my sleep and stress — the app then gently nudges me when I need rest. It feels deeply personal and intuitive.`,
+      // helpful: 47,
+      images: [
+        'https://cdn.shopify.com/s/files/1/0015/6932/5091/files/smart-ring-advanced-health-monitoring-with-heart-rate-spo2-ip68-waterproof-long-lasting-battery-app-control-and-elegant-rose-gold-design-by-electroniksindia-481.webp',
+        'https://s.alicdn.com/@sc04/kf/H65e3696306ca4407872df7940b4d93beE.jpg_720x720q50.jpg'
+      ]
+    },
+    {
+      id: 2,
+      name: 'Rahul Mehta',
+      role: 'Software Engineer',
+      location: 'Bangalore',
+      avatar: './assets/images/RahulMehta.png',
+      rating: 5,
+      date: '7 days ago',
+      verified: true,
+      content: `I didn’t think an app could understand me like this. It connects my mental state with my sleep and heart rate, then gives me insights that make complete sense. The design is smooth, calming, and not overwhelming. I check in daily now — it’s like having a quiet companion in my pocket.`,
+      // helpful: 32,
+      images: ['https://ae01.alicdn.com/kf/Sd9d32933d890419f8b4c16980c9f91d8A.jpg_640x640q90.jpg']
+    },
+    {
+      id: 3,
+      name: 'Shreyas Iyer',
+      role: 'Wellness Coach',
+      location: 'Chennai',
+      avatar: './assets/images/ShreyasIyer.png',
+      rating: 4,
+      date: '5 days ago',
+      verified: true,
+      content: `I used to struggle with consistency in journaling, but this app makes it feel effortless. It actually understands cultural nuances, and the responses are so comforting. My smart ring syncing with the app helps me see patterns between my emotions and sleep. It doesn’t feel robotic — it feels thoughtful.`,
+      // helpful: 28,
       images: [
         'https://cdn.shopify.com/s/files/1/0015/6932/5091/files/smart-ring-advanced-health-monitoring-with-heart-rate-spo2-ip68-waterproof-long-lasting-battery-app-control-and-elegant-rose-gold-design-by-electroniksindia-481.webp','https://media.jaycar.com.au/product/images/QC3160_smart-ring-with-charging-case-large-black_157822.jpg'
       ]
     },
     {
-      id: 2,
-      name: 'Marcus Rodriguez',role: 'Software Engineer',location: 'Austin, TX',avatar: 'https://randomuser.me/api/portraits/men/45.jpg',rating: 5,date: '1 month ago',
-      verified: true,
-      content: `I was skeptical about emotional tracking technology, but the WellnessRing Pro has proven me wrong. The stress detection is incredibly accurate - it often alerts me to rising stress levels before I'm consciously aware of them. The meditation guidance feature has become part of my daily routine. The ring vibrates gently when it detects I need a breathing break, and the guided exercises are perfectly timed. It's like having a personal wellness coach on my finger.`,
-      helpful: 32,
-      images: []
-    },
-    {
-      id: 3,
-      name: 'Dr. Emily Watson',role: 'Clinical Psychologist',location: 'Boston, MA',avatar: 'https://randomuser.me/api/portraits/women/28.jpg',rating: 4,date: '3 weeks ago',
-      verified: true,
-      content: `From a clinical perspective, the WellnessRing Pro offers valuable insights into physiological markers of emotional states. I've recommended it to several patients dealing with anxiety and stress management.
-
-The data visualization in the app is comprehensive yet easy to understand. My patients appreciate being able to track their progress objectively. The only minor issue is that it takes a few days to calibrate to individual patterns, but once it does, the accuracy is impressive.`,
-      helpful: 28,
-      images: [
-        'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=200&h=200&fit=crop'
-      ]
-    },
-    {
       id: 4,
-      name: 'James Park',
-      role: 'Fitness Enthusiast',
-      location: 'Seattle, WA',
-      avatar: 'https://randomuser.me/api/portraits/men/38.jpg',
+      name: 'Aman Joshi',
+      role: 'Software Engineer',
+      location: 'Mumbai',
+      avatar: './assets/images/AmanJoshi.png',
       rating: 5,
       date: '1 week ago',
       verified: true,
-      content: `I've been using fitness trackers for years, but the WellnessRing Pro adds a whole new dimension to health monitoring. The heart rate variability tracking during workouts helps me optimize my training intensity.
-
-What surprised me most is how it tracks recovery and suggests when I should take rest days. The sleep analysis is incredibly detailed, showing how my emotional state affects sleep quality. It's become an essential part of my fitness routine.`,
-      helpful: 19,
-      images: []
+      content: `The ring and app combo is brilliant. It tracks my heart rate and sleep without me doing anything, and the app uses that to gently guide me. When I’m feeling low, I get caring suggestions, not generic advice. It's respectful, private, and really smart. Easily one of my best purchases.`,
+      // helpful: 19,
+      images: ['https://s.alicdn.com/@sc04/kf/H65e3696306ca4407872df7940b4d93beE.jpg_720x720q50.jpg']
     }
   ];
 
@@ -87,7 +92,7 @@ What surprised me most is how it tracks recovery and suggests when I should take
               />
             ))}
           </div>
-          <span className="text-sm text-text-secondary">4.8 out of 5 (1,247 reviews)</span>
+          <span className="text-sm text-text-secondary">4.8 out of 5 (19 reviews)</span>
         </div>
       </div>
 

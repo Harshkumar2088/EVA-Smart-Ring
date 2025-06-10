@@ -147,7 +147,7 @@ const Footer = () => {
         </div>
 
         {/* Newsletter Signup */}
-        <div className="border-t border-gray-700 mt-12 pt-8">
+        {/* <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="font-heading font-semibold text-lg mb-2">Stay Updated</h3>
@@ -167,7 +167,7 @@ const Footer = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Bottom Footer */}

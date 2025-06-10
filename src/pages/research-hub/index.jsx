@@ -19,65 +19,99 @@ const DeveloperResearchHub = () => {
   ];
 
   const researchPartners = [
-    {
+
+  {
       id: 1,
-      name: "Stanford Cultural Wellness Lab",
+      name: "Utah State University",
       type: "University",
-      focus: "Cultural AI Ethics",
-      collaboration: "Joint research on cultural bias detection in wellness AI",
-      logo: "https://images.unsplash.com/photo-1562774053-701939374585?w=100&h=100&fit=crop&crop=center",
+      focus: "Cultural mental health, parenting (GenerationPMTO), microaggressions, adapted therapies (ACT), Latinx health",
+      collaboration: "USU faculty, LIHA, ACT Lab (Dr. Levin), community groups",
+      logo: "https://www.usu.edu/modules/images/banners/1600/USU-SLCC-Partnership-Propels-Outdoor-Product-Design-Innovators.jpg",
       status: "Active",
       publications: 3
     },
-    {
-      id: 2,
-      name: "MIT Empathetic Computing Group",
-      type: "Research Institute",
-      focus: "Emotional Intelligence",
-      collaboration: "Development of empathy measurement algorithms",
-      logo: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=100&h=100&fit=crop&crop=center",
-      status: "Active",
-      publications: 2
-    },
-    {
-      id: 3,
-      name: "Indigenous Wellness Council",
-      type: "Cultural Organization",
-      focus: "Traditional Practices",
-      collaboration: "Integration of indigenous wellness methodologies",
-      logo: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=100&h=100&fit=crop&crop=center",
-      status: "Partnership",
-      publications: 1
-    }
+    // {
+    //   id: 1,
+    //   name: "Stanford Cultural Wellness Lab",
+    //   type: "University",
+    //   focus: "Cultural AI Ethics",
+    //   collaboration: "Joint research on cultural bias detection in wellness AI",
+    //   logo: "https://images.unsplash.com/photo-1562774053-701939374585?w=100&h=100&fit=crop&crop=center",
+    //   status: "Active",
+    //   publications: 3
+    // },
+    // {
+    //   id: 2,
+    //   name: "MIT Empathetic Computing Group",
+    //   type: "Research Institute",
+    //   focus: "Emotional Intelligence",
+    //   collaboration: "Development of empathy measurement algorithms",
+    //   logo: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=100&h=100&fit=crop&crop=center",
+    //   status: "Active",
+    //   publications: 2
+    // },
+    // {
+    //   id: 3,
+    //   name: "Indigenous Wellness Council",
+    //   type: "Cultural Organization",
+    //   focus: "Traditional Practices",
+    //   collaboration: "Integration of indigenous wellness methodologies",
+    //   logo: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=100&h=100&fit=crop&crop=center",
+    //   status: "Partnership",
+    //   publications: 1
+    // }
   ];
 
   const peerReviewedStudies = [
+
     {
       id: 1,
-      title: "Cultural Adaptation in AI-Driven Wellness Platforms: A Cross-Cultural Study",
-      journal: "Journal of Digital Health",
-      year: 2024,
-      authors: "Chen, L., Rodriguez, M., Patel, S.",
-      abstract: `This study examines how AI wellness platforms can be culturally adapted to serve diverse populations effectively. Through analysis of 2,847 users across 15 cultural backgrounds, we demonstrate significant improvements in user engagement and wellness outcomes when AI systems incorporate cultural intelligence frameworks.
-
-The research reveals that culturally-aware AI systems show 73% higher user retention and 45% better wellness goal achievement compared to one-size-fits-all approaches.`,
-      citations: 127,
+      title: "Spanish Adaptation of the Medical Quality Video Evaluation Tool (MQ‑VET): Cross‑Cultural AI‑Supported Validation Study",
+      journal: "Science Progress",
+      year: 2025,
+      authors: "Sánchez-Rodríguez, Á., Collado-Borrell, R., Herranz-Alonso, A., et al.",
+      abstract: `This peer-reviewed study presents the development and validation of a Spanish-language version of the MQ‑VET, a tool used to assess the quality of health-related YouTube videos. Conducted through an AI-assisted translation and Delphi validation process, it involved 15 expert panelists and achieved high reliability (Cronbach’s alpha = 0.89). The study highlights the importance of culturally adapted evaluation tools for digital health content and emphasizes the risks of misinformation in unregulated platforms like YouTube.`,
+      // citations: 127,
       downloadUrl: "#",
-      tags: ["Cultural AI", "Wellness Technology", "User Experience"]
+      tags: ["Digital Health", "Video Quality Assessment", "Cross-Cultural Validation","AI in Healthcare" ]
     },
     {
       id: 2,
-      title: "Privacy-Preserving Emotional Intelligence in Wearable Wellness Devices",
-      journal: "IEEE Transactions on Biomedical Engineering",
-      year: 2024,
-      authors: "Kim, J., Thompson, A., Nakamura, T.",
-      abstract: `We present a novel approach to implementing emotional intelligence in wearable devices while maintaining strict privacy standards. Our federated learning framework enables personalized wellness insights without compromising user data privacy.
-
-Results show that our privacy-first approach maintains 94% of the accuracy of centralized models while ensuring complete data sovereignty for users.`,
-      citations: 89,
+      title: "A Privacy‑Preserving On‑Device Design for Wearable AI",
+      journal: "Forbes Technology Council",
+      year: 2025,
+      authors: "Wei Duan, Forbes Councils Member, Cofounder & CTO of 8glabs, Inc.",
+      abstract: `This expert article examines a privacy-first architecture for wearable AI that processes user data entirely on-device—minimizing risks associated with cloud transmission. It delves into separating encoder and decoder components within multimodal models, highlighting edge computing’s role in supporting secure and efficient AI in healthcare, fitness, and other sectors.`,
+      // citations: 89,
       downloadUrl: "#",
-      tags: ["Privacy Technology", "Federated Learning", "Emotional AI"]
+      tags: ["On‑Device AI | Edge Computing | Data Privacy | Wearable Technology"]
     }
+//     {
+//       id: 1,
+//       title: "Cultural Adaptation in AI-Driven Wellness Platforms: A Cross-Cultural Study",
+//       journal: "Journal of Digital Health",
+//       year: 2024,
+//       authors: "Chen, L., Rodriguez, M., Patel, S.",
+//       abstract: `This study examines how AI wellness platforms can be culturally adapted to serve diverse populations effectively. Through analysis of 2,847 users across 15 cultural backgrounds, we demonstrate significant improvements in user engagement and wellness outcomes when AI systems incorporate cultural intelligence frameworks.
+
+// The research reveals that culturally-aware AI systems show 73% higher user retention and 45% better wellness goal achievement compared to one-size-fits-all approaches.`,
+//       citations: 127,
+//       downloadUrl: "#",
+//       tags: ["Cultural AI", "Wellness Technology", "User Experience"]
+//     },
+//     {
+//       id: 2,
+//       title: "Privacy-Preserving Emotional Intelligence in Wearable Wellness Devices",
+//       journal: "IEEE Transactions on Biomedical Engineering",
+//       year: 2024,
+//       authors: "Kim, J., Thompson, A., Nakamura, T.",
+//       abstract: `We present a novel approach to implementing emotional intelligence in wearable devices while maintaining strict privacy standards. Our federated learning framework enables personalized wellness insights without compromising user data privacy.
+
+// Results show that our privacy-first approach maintains 94% of the accuracy of centralized models while ensuring complete data sovereignty for users.`,
+//       citations: 89,
+//       downloadUrl: "#",
+//       tags: ["Privacy Technology", "Federated Learning", "Emotional AI"]
+//     }
   ];
 
   const technicalDemos = [
@@ -212,16 +246,16 @@ Results show that our privacy-first approach maintains 94% of the accuracy of ce
               collaborative development, and transparent innovation
             </p>
 
-            {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="px-8 py-4 bg-plum text-white font-heading font-medium rounded-brand transition-whisper whisper-ripple hover:shadow-whisper hover:scale-105">
                 <Icon name="Download" size={20} className="inline mr-2" />
                 Download Research Papers
               </button>
-              <button className="px-8 py-4 border-2 border-primary text-primary-700 font-heading font-medium rounded-brand transition-whisper whisper-ripple hover:bg-primary/10">
+              {/* <button className="px-8 py-4 border-2 border-primary text-primary-700 font-heading font-medium rounded-brand transition-whisper whisper-ripple hover:bg-primary/10">
                 <Icon name="Github" size={20} className="inline mr-2" />
                 Explore Open Source
-              </button>
-            </div> */}
+              </button> */}
+            </div>
           </div>
 
           {/* Stats Grid */}
@@ -608,22 +642,30 @@ const insights = await whisperRing.analyze({
               <Icon name="Users" size={20} className="inline mr-2" />
               Join Community
             </Link>
-            <Link
-  to="/contact-email"
-  className="px-8 py-4 border-2 border-primary text-primary-700 font-heading font-medium rounded-brand transition-whisper whisper-ripple hover:bg-primary/10"
->
-  <Icon name="Mail" size={20} className="inline mr-2" />
-  Email Us
-</Link>
+            <a
+        href="mailto:mdoffice@dkgrouplabs.com"
+        className="flex items-center justify-center space-x-2 px-6 py-3 border border-primary text-primary rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-primary-100"
+      >
+        <Icon name="Mail" size={18} />
+        <span>Email Us</span>
+      </a>
+
+      <a
+              href="tel:+919810805605"
+              className="flex items-center justify-center space-x-2 px-6 py-3 border border-primary text-primary rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-primary-100"
+            >
+              <Icon name="Phone" size={18} />
+              <span>Call Us</span>
+            </a>
 
 
-            <Link
+            {/* <Link
               to="/privacy-sanctuary-memory-vault"
               className="px-8 py-4 border-2 border-primary text-primary-700 font-heading font-medium rounded-brand transition-whisper whisper-ripple hover:bg-primary/10"
             >
               <Icon name="Shield" size={20} className="inline mr-2" />
               Privacy First
-            </Link>
+            </Link> */}
             
             
           </div>

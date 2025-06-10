@@ -271,14 +271,24 @@ const HowItWorks = () => {
               <button className="px-8 py-4 bg-plum text-white font-heading font-semibold rounded-brand transition-whisper whisper-ripple hover:shadow-whisper hover:scale-105 breathing">
                 Join the Whisper Community
               </button>
+
+              <a
+        href="mailto:mdoffice@dkgrouplabs.com"
+        className="flex items-center justify-center space-x-2 px-6 py-3 border border-primary text-primary rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-primary-100"
+      >
+        <Icon name="Mail" size={18} />
+        <span>Email Us</span>
+      </a>
+
+  
               
-              <Link
+              {/* <Link
                 to="/privacy-sanctuary-memory-vault"
                 className="inline-flex items-center space-x-2 px-6 py-3 text-primary-700 hover:text-primary-800 hover:bg-primary/10 rounded-brand-sm transition-gentle"
               >
                 <Icon name="Shield" size={20} />
                 <span>Explore Privacy First</span>
-              </Link>
+              </Link> */}
             </div>
 
             {/* Navigation Links */}

@@ -17,12 +17,12 @@ const ProductDetailsPreOrder = () => {
     id: 'wellness-ring-pro',
     name: 'Smart Ring Pro',
     tagline: 'Your Personal Emotional Intelligence Companion',
-    price: 299,
-    originalPrice: 399,
+    price: 29,
+    originalPrice: 39,
     discount: 25,
     availability: 'Pre-order - Ships March 2024',
     rating: 4.8,
-    reviewCount: 1247,
+    reviewCount: 1240,
     description: `The WellnessRing Pro is a revolutionary wearable device that combines cutting-edge biometric sensors with advanced AI to provide real-time emotional intelligence insights. Designed for the modern wellness enthusiast, this sleek ring monitors your physiological responses and translates them into actionable emotional awareness data.
 
 Built with medical-grade sensors and a titanium body, the WellnessRing Pro offers 7-day battery life, water resistance up to 100 meters, and seamless integration with our companion app for comprehensive wellness tracking and journaling.`,

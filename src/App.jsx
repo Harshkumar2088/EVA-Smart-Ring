@@ -1,10 +1,10 @@
 import React from "react";
-import Routes from "./Routes";
+import AppRoutes from "./Routes"; // Renamed to avoid name conflict
 
 function App() {
-  return (
-    <Routes />
-  );
+  return <AppRoutes />;
 }
 
 export default App;
+
+

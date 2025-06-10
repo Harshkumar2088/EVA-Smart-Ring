@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+  //  import { Link } from 'react-router-dom';
 import Icon from '../AppIcon';
 
 const Header = () => {
@@ -8,6 +9,7 @@ const Header = () => {
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [cartItemCount] = useState(2);
   const location = useLocation();
+  
 
   const navigationItems = [
     { label: 'Home', path: '/homepage-product-landing', icon: 'Home' },
@@ -40,6 +42,8 @@ const Header = () => {
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
   };
+
+  
 
   return (
     <>
@@ -86,13 +90,23 @@ const Header = () => {
                   </span>
                 )}
               </button>
-              <button
+              {/* <button
                 onClick={toggleAuthModal}
                 className="flex items-center space-x-2 px-4 py-2 bg-primary text-text-inverse rounded-organic gentle-transition haptic-feedback hover:bg-primary-600"
               >
                 <Icon name="User" size={18} />
                 <span className="font-body font-medium">Register</span>
-              </button>
+              </button> */}
+           
+
+<Link
+  to="/registration"
+  className="flex items-center space-x-2 px-4 py-2 bg-primary text-text-inverse rounded-organic gentle-transition haptic-feedback hover:bg-primary-600"
+>
+  <Icon name="User" size={18} />
+  <span className="font-body font-medium">Register</span>
+</Link>
+
             </div>
 
             {/* Mobile Menu Button */}
@@ -200,7 +214,7 @@ const Header = () => {
                     <div className="flex-1">
                       <h3 className="font-body font-medium text-text-primary">WellnessRing </h3>
                       <p className="text-sm text-text-secondary">Quantity: 1</p>
-                      <p className="font-semibold text-accent">$299.00</p>
+                      <p className="font-semibold text-accent">$29.00</p>
                     </div>
                   </div>
                 </div>
@@ -209,7 +223,7 @@ const Header = () => {
               <div className="p-6 border-t border-border-light">
                 <div className="flex items-center justify-between mb-4">
                   <span className="font-body font-medium text-text-primary">Total:</span>
-                  <span className="font-heading font-semibold text-xl text-text-primary">$299.00</span>
+                  <span className="font-heading font-semibold text-xl text-text-primary">$29.00</span>
                 </div>
                 <button className="w-full bg-primary text-text-inverse py-3 rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-primary-600">
                   Proceed to Checkout
@@ -221,69 +235,80 @@ const Header = () => {
       )}
 
       {/* Authentication Modal */}
-      {isAuthModalOpen && (
-        <div className="fixed inset-0 z-1100 bg-black bg-opacity-50 flex items-center justify-center p-4 fade-in" onClick={toggleAuthModal}>
-          <div 
-            className="bg-background rounded-organic-lg shadow-soft-lg w-full max-w-md slide-in"
-            onClick={(e) => e.stopPropagation()}
+      
+{/* {isAuthModalOpen && (
+  <div
+    className="fixed inset-0 z-1100 bg-black bg-opacity-50 flex items-center justify-center p-4 fade-in"
+    onClick={toggleAuthModal}
+  >
+    <div
+      className="bg-background rounded-organic-lg shadow-soft-lg w-full max-w-md slide-in"
+      onClick={(e) => e.stopPropagation()}
+    >
+      <div className="p-6">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="font-heading font-semibold text-xl text-text-primary">Welcome Back</h2>
+          <button
+            onClick={toggleAuthModal}
+            className="p-2 text-text-secondary hover:text-text-primary gentle-transition haptic-feedback rounded-organic hover:bg-surface"
           >
-            <div className="p-6">
-              <div className="flex items-center justify-between mb-6">
-                <h2 className="font-heading font-semibold text-xl text-text-primary">Welcome Back</h2>
-                <button
-                  onClick={toggleAuthModal}
-                  className="p-2 text-text-secondary hover:text-text-primary gentle-transition haptic-feedback rounded-organic hover:bg-surface"
-                >
-                  <Icon name="X" size={20} />
-                </button>
-              </div>
-              
-              <form className="space-y-4">
-                <div>
-                  <label className="block text-sm font-caption text-text-secondary mb-2">Name</label>
-                  <input
-                    type="text"
-                    name="name"
-                    className="w-full px-4 py-3 border border-border rounded-organic focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent gentle-transition"
-                    placeholder="Enter your name"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-caption text-text-secondary mb-2">Email</label>
-                  <input
-                    type="email"
-                    className="w-full px-4 py-3 border border-border rounded-organic focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent gentle-transition"
-                    placeholder="Enter your email"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-caption text-text-secondary mb-2">Password</label>
-                  <input
-                    type="password"
-                    className="w-full px-4 py-3 border border-border rounded-organic focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent gentle-transition"
-                    placeholder="Enter your password"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="w-full bg-primary text-text-inverse py-3 rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-primary-600"
-                >
-                  Sign In
-                </button>
-              </form>
-              
-              <div className="mt-6 text-center">
-                <p className="text-sm text-text-secondary">
-                  Don't have an account?{' '}
-                  <Link to="/user-registration-login" className="text-primary hover:text-primary-600 gentle-transition" onClick={toggleAuthModal}>
-                    Sign up
-                  </Link>
-                </p>
-              </div>
-            </div>
-          </div>
+            <Icon name="X" size={20} />
+          </button>
         </div>
-      )}
+
+        <form className="space-y-4">
+          <div>
+            <label className="block text-sm font-caption text-text-secondary mb-2">Name</label>
+            <input
+              type="text"
+              name="name"
+              className="w-full px-4 py-3 border border-border rounded-organic focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent gentle-transition"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-caption text-text-secondary mb-2">Email</label>
+            <input
+              type="email"
+              name="email"
+              className="w-full px-4 py-3 border border-border rounded-organic focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent gentle-transition"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-caption text-text-secondary mb-2">Mobile No.</label>
+            <input
+              type="tel"
+              name="mobile"
+              className="w-full px-4 py-3 border border-border rounded-organic focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent gentle-transition"
+              placeholder="Enter your mobile number"
+            />
+          </div>
+          <button
+            type="submit"
+            className="w-full bg-primary text-text-inverse py-3 rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-primary-600"
+          >
+            Sign In
+          </button>
+        </form>
+
+        <div className="mt-6 text-center">
+          <p className="text-sm text-text-secondary">
+            Don't have an account?{' '}
+            <Link
+              to="/registration"
+              className="text-primary hover:text-primary-600 gentle-transition"
+              onClick={toggleAuthModal}
+            >
+              Sign up
+            </Link>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div> */}
+{/* )} */}
+
     </>
   );
 };

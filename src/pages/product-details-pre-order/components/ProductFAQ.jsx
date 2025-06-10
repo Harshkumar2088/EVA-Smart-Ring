@@ -98,10 +98,10 @@ We believe your health data belongs to you, and we're committed to keeping it sa
         <h2 className="font-heading font-bold text-2xl lg:text-3xl text-text-primary">
           Frequently Asked Questions
         </h2>
-        <button className="flex items-center space-x-2 text-primary hover:text-primary-600 gentle-transition">
+        {/* <button className="flex items-center space-x-2 text-primary hover:text-primary-600 gentle-transition">
           <span className="text-sm font-medium">View All FAQs</span>
           <Icon name="ExternalLink" size={16} />
-        </button>
+        </button> */}
       </div>
 
       <div className="space-y-4">
@@ -152,14 +152,20 @@ We believe your health data belongs to you, and we're committed to keeping it sa
               <Icon name="MessageCircle" size={18} />
               <span>Live Chat</span>
             </button>
-            <button className="flex items-center justify-center space-x-2 px-6 py-3 border border-primary text-primary rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-primary-100">
-              <Icon name="Mail" size={18} />
-              <span>Email Support</span>
-            </button>
-            <button className="flex items-center justify-center space-x-2 px-6 py-3 border border-primary text-primary rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-primary-100">
-              <Icon name="Phone" size={18} />
-              <span>Call Us</span>
-            </button>
+            <a
+        href="mailto:mdoffice@dkgrouplabs.com"
+        className="flex items-center justify-center space-x-2 px-6 py-3 border border-primary text-primary rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-primary-100"
+      >
+        <Icon name="Mail" size={18} />
+        <span>Email Support</span>
+      </a>
+      <a
+        href="tel:+919810805605"
+        className="flex items-center justify-center space-x-2 px-6 py-3 border border-primary text-primary rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-primary-100"
+      >
+        <Icon name="Phone" size={18} />
+        <span>Call Us</span>
+      </a>
           </div>
         </div>
       </div>

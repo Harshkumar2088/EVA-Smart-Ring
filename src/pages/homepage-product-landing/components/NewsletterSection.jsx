@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Icon from 'components/AppIcon';
+import axios from 'axios';
 
 const NewsletterSection = () => {
   const [email, setEmail] = useState('');
@@ -11,36 +12,24 @@ const NewsletterSection = () => {
     if (!email) return;
 
     setIsLoading(true);
-    
-    // Simulate API call
-    setTimeout(() => {
+
+    try {
+      await axios.post('http://localhost:5000/api/subscribe', { email });
       setIsSubscribed(true);
-      setIsLoading(false);
       setEmail('');
-    }, 1500);
+    } catch (error) {
+      console.error("Subscription failed:", error);
+      alert("Something went wrong. Please try again later.");
+    }
+
+    setIsLoading(false);
   };
 
   const benefits = [
-    {
-      icon: "Zap",
-      title: "Early Access",
-      description: "Be the first to know about new features and updates"
-    },
-    {
-      icon: "Gift",
-      title: "Exclusive Offers",
-      description: "Special discounts and promotions for subscribers"
-    },
-    {
-      icon: "BookOpen",
-      title: "Wellness Tips",
-      description: "Weekly insights on emotional intelligence and wellness"
-    },
-    {
-      icon: "Users",
-      title: "Community",
-      description: "Join our community of wellness enthusiasts"
-    }
+    { icon: "Zap", title: "Early Access", description: "Be the first to know about new features and updates" },
+    { icon: "Gift", title: "Exclusive Offers", description: "Special discounts and promotions for subscribers" },
+    { icon: "BookOpen", title: "Wellness Tips", description: "Weekly insights on emotional intelligence and wellness" },
+    { icon: "Users", title: "Community", description: "Join our community of wellness enthusiasts" }
   ];
 
   if (isSubscribed) {
@@ -72,7 +61,6 @@ const NewsletterSection = () => {
     <section className="py-4 lg:py-6 bg-gradient-to-br from-primary-50 to-secondary-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Content */}
           <div>
             <div className="mb-6">
               <span className="inline-flex items-center space-x-2 px-4 py-2 bg-primary-100 text-primary-700 rounded-full font-body font-medium text-sm">
@@ -80,11 +68,11 @@ const NewsletterSection = () => {
                 <span>Stay Connected</span>
               </span>
             </div>
-            
+
             <h2 className="font-heading font-bold text-3xl lg:text-4xl text-text-primary mb-6">
               Join Our Wellness Community
             </h2>
-            
+
             <p className="font-body text-lg text-text-secondary mb-8">
               Get exclusive insights, early access to new features, and personalized wellness tips delivered to your inbox. Join over 10,000 wellness enthusiasts on their emotional intelligence journey.
             </p>
@@ -122,7 +110,6 @@ const NewsletterSection = () => {
               </div>
             </form>
 
-            {/* Trust Indicators */}
             <div className="flex items-center space-x-6 text-sm text-text-secondary">
               <div className="flex items-center space-x-2">
                 <Icon name="Shield" size={16} />
@@ -139,7 +126,6 @@ const NewsletterSection = () => {
             </div>
           </div>
 
-          {/* Benefits */}
           <div className="grid grid-cols-2 gap-6">
             {benefits.map((benefit, index) => (
               <div key={index} className="bg-background rounded-organic p-6 shadow-soft-elevation-1 hover:shadow-soft-elevation-2 gentle-transition text-center">
@@ -157,7 +143,6 @@ const NewsletterSection = () => {
           </div>
         </div>
 
-        {/* Social Proof */}
         <div className="text-center mt-16">
           <div className="inline-flex items-center space-x-4 px-6 py-3 bg-background rounded-organic shadow-soft-elevation-1">
             <div className="flex -space-x-2">

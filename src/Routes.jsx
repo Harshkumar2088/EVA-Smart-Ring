@@ -17,6 +17,8 @@ import PrivacySanctuary from "pages/privacy-sanctuary";
 import WellnessResourceCenter from "pages/wellness-resource-center";
 import CommunityStories from "pages/community-stories";
 import ResearchHub from "pages/research-hub";
+import RegistrationForm from "pages/Registeration/RegistrationForm";
+
 
 
 const Routes = () => {
@@ -31,6 +33,7 @@ const Routes = () => {
           <Route path="/homepage-product-landing" element={<HomepageProductLanding />} />
           <Route path="/product-details-pre-order" element={<ProductDetailsPreOrder />} />
           <Route path="/user-registration-login" element={<UserRegistrationLogin />} />
+          <Route path="/registration" element={<RegistrationForm />} />
           <Route path="/user-dashboard-wellness-overview" element={<UserDashboardWellnessOverview />} />
           <Route path="/digital-journal-voice-input" element={<DigitalJournalVoiceInput />} />
           <Route path="/emotion-insights-analytics" element={<EmotionInsightsAnalytics />} />

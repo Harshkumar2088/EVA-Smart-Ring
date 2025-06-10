@@ -23,9 +23,9 @@ const PreOrderSection = ({ quantity, setQuantity, onAddToCart, isAddedToCart, pr
     {
       id: 'deposit',
       label: 'Pre-order Deposit',
-      description: 'Pay $99 now, rest on shipping',
-      amount: 99,
-      savings: 20
+      description: 'Pay $15 now, rest on shipping',
+      amount: 39,
+      savings: 10
     }
   ];
 
@@ -134,7 +134,7 @@ const PreOrderSection = ({ quantity, setQuantity, onAddToCart, isAddedToCart, pr
 
       {/* Action Buttons */}
       <div className="space-y-3">
-        {/* <button
+        <button
           onClick={onAddToCart}
           className={`w-full py-4 rounded-organic font-body font-semibold text-lg gentle-transition haptic-feedback ${
             isAddedToCart
@@ -150,12 +150,12 @@ const PreOrderSection = ({ quantity, setQuantity, onAddToCart, isAddedToCart, pr
             <div className="flex items-center justify-center space-x-2">
               <Icon name="ShoppingCart" size={20} />
               <span>
-                {selectedPayment === 'full' ? 'Pre-Order Now' : 
+                {selectedPayment === 'full' ? 'Order Now' : 
                  selectedPayment === 'installment'? 'Start Installment Plan' : 'Reserve with Deposit'}
               </span>
             </div>
           )}
-        </button> */}
+        </button>
 
         <button className="w-full py-3 border border-border text-text-primary rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-surface">
           <div className="flex items-center justify-center space-x-2">
@@ -166,7 +166,7 @@ const PreOrderSection = ({ quantity, setQuantity, onAddToCart, isAddedToCart, pr
       </div>
 
       {/* Delivery Information */}
-      <div className="bg-accent-50 border border-accent-200 rounded-organic p-4">
+      {/* <div className="bg-accent-50 border border-accent-200 rounded-organic p-4">
         <div className="flex items-start space-x-3">
           <Icon name="Info" size={18} className="text-accent-600 mt-0.5 flex-shrink-0" />
           <div className="text-sm">
@@ -176,7 +176,7 @@ const PreOrderSection = ({ quantity, setQuantity, onAddToCart, isAddedToCart, pr
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Security Badges */}
       <div className="flex items-center justify-center space-x-6 pt-4 border-t border-border-light">

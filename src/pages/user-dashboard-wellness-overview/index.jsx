@@ -327,6 +327,16 @@ const UserDashboardWellnessOverview = () => {
               <Icon name="BookOpen" size={18} />
               <span>Start Journaling</span>
             </Link>
+
+            <a
+        href="mailto:mdoffice@dkgrouplabs.com"
+        className="flex items-center justify-center space-x-2 px-6 py-3 border border-text-inverse text-text-inverse rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-white hover:bg-opacity-10"
+      >
+        <Icon name="Mail" size={18} />
+        <span>Email Us</span>
+      </a>
+
+    
           </div>
         </div>
       </div>
