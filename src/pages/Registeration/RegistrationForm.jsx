@@ -24,7 +24,7 @@ const RegistrationForm = () => {
 
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbxfC2zqQ9FcQCjDTC43Ehozo1dMZrACMI1DYjngCyq6RxftNHiG_I3Jgw_zozVUMljsYg/exec",
+        "https://script.google.com/macros/s/AKfycbxNQgor9Lnr61PiZw0cIJ0x3Kh_9wGx-5uKaWkAnjPUG3Wa6HuA4sLRq995UzC-gaH4mw/exec",
         {
           method: "POST",
           body: form
@@ -100,5 +100,6 @@ const RegistrationForm = () => {
     </section>
   );
 };
+
 
 export default RegistrationForm;
