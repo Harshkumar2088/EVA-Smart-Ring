@@ -80,7 +80,7 @@ const RegistrationForm = () => {
               <input
                 type="tel"
                 name="phone"
-                placeholder="Phone Number (optional)"
+                placeholder="Phone Number"
                 className="w-full px-4 py-4 border border-border rounded-organic focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent gentle-transition font-body text-lg bg-white transition-all duration-300 focus:scale-[1.03]"
                 value={formData.phone}
                 onChange={handleChange}
