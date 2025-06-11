@@ -33,11 +33,11 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { name: 'Twitter', icon: 'Twitter', href: '#' },
-    { name: 'Facebook', icon: 'Facebook', href: '#' },
-    { name: 'Instagram', icon: 'Instagram', href: '#' },
-    { name: 'LinkedIn', icon: 'Linkedin', href: '#' },
-    { name: 'YouTube', icon: 'Youtube', href: '#' }
+    { name: 'Twitter', icon: 'Twitter', href: 'https://x.com/dkglabs' },
+    { name: 'Facebook', icon: 'Facebook', href: 'https://www.facebook.com/DKGLabs/' },
+    // { name: 'Instagram', icon: 'Instagram', href: '#' },
+    { name: 'LinkedIn', icon: 'Linkedin', href: 'https://www.linkedin.com/company/dkg-labs/' },
+    // { name: 'YouTube', icon: 'Youtube', href: '#' }
   ];
 
   const contactInfo = [

@@ -63,10 +63,10 @@ const NewsletterSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <div className="mb-6">
-              <span className="inline-flex items-center space-x-2 px-4 py-2 bg-primary-100 text-primary-700 rounded-full font-body font-medium text-sm">
+              {/* <span className="inline-flex items-center space-x-2 px-4 py-2 bg-primary-100 text-primary-700 rounded-full font-body font-medium text-sm">
                 <Icon name="Mail" size={16} />
                 <span>Stay Connected</span>
-              </span>
+              </span> */}
             </div>
 
             <h2 className="font-heading font-bold text-3xl lg:text-4xl text-text-primary mb-6">
@@ -78,7 +78,7 @@ const NewsletterSection = () => {
             </p>
 
             {/* Newsletter Form */}
-            <form onSubmit={handleSubmit} className="mb-8">
+            {/* <form onSubmit={handleSubmit} className="mb-8">
               <div className="flex flex-col sm:flex-row gap-4">
                 <div className="flex-1">
                   <input
@@ -108,9 +108,9 @@ const NewsletterSection = () => {
                   )}
                 </button>
               </div>
-            </form>
+            </form> */}
 
-            <div className="flex items-center space-x-6 text-sm text-text-secondary">
+            {/* <div className="flex items-center space-x-6 text-sm text-text-secondary">
               <div className="flex items-center space-x-2">
                 <Icon name="Shield" size={16} />
                 <span>No spam, ever</span>
@@ -123,7 +123,7 @@ const NewsletterSection = () => {
                 <Icon name="Lock" size={16} />
                 <span>Privacy protected</span>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="grid grid-cols-2 gap-6">
@@ -145,7 +145,7 @@ const NewsletterSection = () => {
 
         <div className="text-center mt-16">
           <div className="inline-flex items-center space-x-4 px-6 py-3 bg-background rounded-organic shadow-soft-elevation-1">
-            <div className="flex -space-x-2">
+            {/* <div className="flex -space-x-2">
               {[...Array(5)].map((_, i) => (
                 <div
                   key={i}
@@ -154,10 +154,10 @@ const NewsletterSection = () => {
                   <Icon name="User" size={14} color="white" />
                 </div>
               ))}
-            </div>
-            <span className="font-body text-text-secondary">
+            </div> */}
+            {/* <span className="font-body text-text-secondary">
               Join 10,000+ subscribers getting weekly wellness insights
-            </span>
+            </span> */}
           </div>
         </div>
       </div>
