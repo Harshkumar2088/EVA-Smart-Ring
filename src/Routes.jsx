@@ -18,7 +18,7 @@ import WellnessResourceCenter from "pages/wellness-resource-center";
 import CommunityStories from "pages/community-stories";
 import ResearchHub from "pages/research-hub";
 import RegistrationForm from "pages/Registeration/RegistrationForm";
-
+import OrderNow from "pages/Order-now/OrderNow";
 
 
 const Routes = () => {
@@ -34,6 +34,7 @@ const Routes = () => {
           <Route path="/product-details-pre-order" element={<ProductDetailsPreOrder />} />
           <Route path="/user-registration-login" element={<UserRegistrationLogin />} />
           <Route path="/registration" element={<RegistrationForm />} />
+          <Route path="/order-now" element={<OrderNow />} />
           <Route path="/user-dashboard-wellness-overview" element={<UserDashboardWellnessOverview />} />
           <Route path="/digital-journal-voice-input" element={<DigitalJournalVoiceInput />} />
           <Route path="/emotion-insights-analytics" element={<EmotionInsightsAnalytics />} />

@@ -35,7 +35,7 @@ const HeroSection = () => {
               Discover the power of emotional awareness with WellnessRing - the smart ring that tracks your emotional patterns, provides personalized insights, and guides you toward better mental wellness.
             </p>
 
-            {/* <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
               <Link
                 to="/product-details-pre-order"
                 className="inline-flex items-center justify-center space-x-2 px-8 py-4 bg-primary text-text-inverse rounded-organic font-body font-semibold gentle-transition haptic-feedback hover:bg-primary-600 shadow-soft-elevation-2"
@@ -48,7 +48,7 @@ const HeroSection = () => {
                 <Icon name="Play" size={20} />
                 <span>Watch Demo</span>
               </button>
-            </div> */}
+            </div>
 
             {/* Stats */}
             {/* <div className="grid grid-cols-3 gap-6 max-w-md mx-auto lg:mx-0">

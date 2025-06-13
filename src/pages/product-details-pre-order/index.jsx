@@ -17,8 +17,8 @@ const ProductDetailsPreOrder = () => {
     id: 'wellness-ring-pro',
     name: 'Smart Ring Pro',
     tagline: 'Your Personal Emotional Intelligence Companion',
-    price: 29,
-    originalPrice: 39,
+    price: 3499,
+    originalPrice: 7499,
     discount: 25,
     availability: 'Pre-order - Ships March 2024',
     rating: 4.8,
@@ -114,13 +114,13 @@ Built with medical-grade sensors and a titanium body, the WellnessRing Pro offer
               {/* Pricing */}
               <div className="flex items-center space-x-3 mb-6">
                 <span className="font-heading font-bold text-3xl text-text-primary">
-                  ${productData.price}
+                  INR {productData.price}
                 </span>
                 <span className="text-lg text-text-tertiary line-through">
-                  ${productData.originalPrice}
+                  INR {productData.originalPrice}
                 </span>
                 <span className="bg-success-light text-success-dark px-2 py-1 rounded-organic text-sm font-medium">
-                  Save ${productData.originalPrice - productData.price}
+                  Save INR {productData.originalPrice - productData.price}
                 </span>
               </div>
             </div>
