@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
   //  import { Link } from 'react-router-dom';
 import Icon from '../AppIcon';
 
@@ -9,6 +9,7 @@ const Header = () => {
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [cartItemCount] = useState(2);
   const location = useLocation();
+  const navigate = useNavigate();
   
 
   const navigationItems = [
@@ -229,7 +230,7 @@ const Header = () => {
                   className="w-full bg-primary text-text-inverse py-3 rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-primary-600"
                   onClick={() => {
                     closeMobileMenu && closeMobileMenu();
-                    window.location.href = '/order-now';
+                    navigate('/order-now', { state: { selectedPayment: 'full' } });
                   }}
                 >
                   Proceed To Buy
