@@ -220,8 +220,8 @@ const PreOrderSection = ({ quantity, setQuantity, onAddToCart, isAddedToCart, pr
     {
       id: 'deposit',
       label: 'Pre-order Deposit',
-      description: 'Pay INR 1290 now, rest on shipping',
-      amount: 3749,
+      description: 'Pay INR 1000 now, rest on shipping',
+      amount: 3499,
       savings: 10
     }
   ];
@@ -237,12 +237,12 @@ const PreOrderSection = ({ quantity, setQuantity, onAddToCart, isAddedToCart, pr
   const selectedOption = paymentOptions.find(option => option.id === selectedPayment);
 
   const handleOrderNow = () => {
-    onAddToCart();
+    // Always navigate to /order-now with correct price and payment type
     navigate('/order-now', {
       state: {
         name: 'EVA Smart Ring',
         image: '/assets/images/ProductShowcaseRing.png',
-        price: selectedOption.amount * quantity - (selectedOption.savings * quantity),
+        price: selectedPayment === 'deposit' ? 1000 : selectedOption.amount * quantity - (selectedOption.savings * quantity),
         quantity,
         selectedPayment
       }
@@ -292,7 +292,7 @@ const PreOrderSection = ({ quantity, setQuantity, onAddToCart, isAddedToCart, pr
       {/* Action Button */}
       <div className="space-y-3">
         <button
-          onClick={selectedPayment === 'full' ? handleOrderNow : onAddToCart}
+          onClick={handleOrderNow}
           className={`w-full py-4 rounded-organic font-semibold ${isAddedToCart ? 'bg-success' : 'bg-primary text-white hover:bg-primary-600'}`}
         >
           {isAddedToCart ? (
@@ -304,7 +304,7 @@ const PreOrderSection = ({ quantity, setQuantity, onAddToCart, isAddedToCart, pr
             <div className="flex justify-center items-center space-x-2">
               <Icon name="ShoppingCart" size={20} />
               <span>
-                {selectedPayment === 'full' ? 'Order Now' : selectedPayment === 'deposit' ? 'Reserve with Deposit' : 'Start Installment Plan'}
+                {selectedPayment === 'full' ? 'Order Now' : selectedPayment === 'deposit' ? 'Pre-Order Now' : 'Start Installment Plan'}
               </span>
             </div>
           )}

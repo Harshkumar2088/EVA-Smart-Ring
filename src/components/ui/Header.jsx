@@ -196,12 +196,12 @@ const Header = () => {
           >
             <div className="flex flex-col h-full">
               <div className="flex items-center justify-between p-6 border-b border-border-light">
-                <h2 className="font-heading font-semibold text-xl text-text-primary">Shopping Cart</h2>
+                <h2 className="font-heading font-semibold text-xl text-text-primary">My WishList</h2>
                 <button
                   onClick={toggleCart}
                   className="p-2 text-text-secondary hover:text-text-primary gentle-transition haptic-feedback rounded-organic hover:bg-surface"
                 >
-                  <Icon name="X" size={20} />
+                  <Icon name="Heart" size={20} />
                 </button>
               </div>
               
@@ -212,9 +212,9 @@ const Header = () => {
                       <Icon name="Package" size={24} color="#4A90A4" />
                     </div>
                     <div className="flex-1">
-                      <h3 className="font-body font-medium text-text-primary">WellnessRing </h3>
+                      <h3 className="font-body font-medium text-text-primary">SmartRing </h3>
                       <p className="text-sm text-text-secondary">Quantity: 1</p>
-                      <p className="font-semibold text-accent">$29.00</p>
+                      <p className="font-semibold text-accent">INR 3499</p>
                     </div>
                   </div>
                 </div>
@@ -223,10 +223,16 @@ const Header = () => {
               <div className="p-6 border-t border-border-light">
                 <div className="flex items-center justify-between mb-4">
                   <span className="font-body font-medium text-text-primary">Total:</span>
-                  <span className="font-heading font-semibold text-xl text-text-primary">$29.00</span>
+                  <span className="font-heading font-semibold text-xl text-text-primary">INR 3499</span>
                 </div>
-                <button className="w-full bg-primary text-text-inverse py-3 rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-primary-600">
-                  Proceed to Checkout
+                <button
+                  className="w-full bg-primary text-text-inverse py-3 rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-primary-600"
+                  onClick={() => {
+                    closeMobileMenu && closeMobileMenu();
+                    window.location.href = '/order-now';
+                  }}
+                >
+                  Proceed To Buy
                 </button>
               </div>
             </div>

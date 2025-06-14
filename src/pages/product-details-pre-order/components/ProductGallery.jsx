@@ -15,25 +15,25 @@ const ProductGallery = () => {
     },
     {
       id: 2,
-      url: 'https://image.made-in-china.com/226f3j00KrVCgEvqCmca/Fashion-Multi-Functions-Sports-Rose-Gold-Silver-Black-Golden-NFC-Smart-Ring-with-Bluetooth-for-Ios-and-Android-Phone.webp',
+      url: 'https://image.made-in-china.com/226f3j00sulMzgenfmcE/Fashion-Multi-Functions-Sports-Rose-Gold-Silver-Black-Golden-NFC-Smart-Ring-with-Bluetooth-for-Ios-and-Android-Phone.webp',
       alt: 'Ring Pro - Side Profile',
       type: 'detail'
     },
     {
       id: 3,
-      url: 'https://image.made-in-china.com/226f3j00sulMzgenfmcE/Fashion-Multi-Functions-Sports-Rose-Gold-Silver-Black-Golden-NFC-Smart-Ring-with-Bluetooth-for-Ios-and-Android-Phone.webp',
+      url: 'https://www.colmi.info/cdn/shop/files/COLMI_R09_Smart_ring_Advanced_Multi-Sensor_Technology_1.jpg?v=1732861875&width=1500',
       alt: 'WellnessRing Pro - Charging Dock',
       type: 'accessory'
     },
     {
       id: 4,
-      url: 'https://www.colmi.info/cdn/shop/files/COLMI_R09_Smart_ring_Advanced_Multi-Sensor_Technology_1.jpg?v=1732861875&width=1500',
+      url: './assets/images/Overviewimage.png',
       alt: 'WellnessRing Pro - App Interface',
       type: 'app'
     },
     {
       id: 5,
-      url: 'https://cdn.zeptonow.com/production/ik-seo/tr:w-640,ar-2007-2000,pr-true,f-auto,q-80/cms/product_variant/d2172301-8a32-400a-aeb7-4f9ee9ab1d8c/boAt-SmartRing-Active-w-Health-Monitor-Magnetic-Charging-Case-Crest-App-Size-11-Radiant-Silver-.jpg',
+      url: './assets/images/Ringapp.png',
       alt: 'WellnessRing Pro - Lifestyle Shot',
       type: 'lifestyle'
     }
