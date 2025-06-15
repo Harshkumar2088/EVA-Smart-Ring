@@ -230,7 +230,8 @@ const Header = () => {
                   className="w-full bg-primary text-text-inverse py-3 rounded-organic font-body font-medium gentle-transition haptic-feedback hover:bg-primary-600"
                   onClick={() => {
                     closeMobileMenu && closeMobileMenu();
-                    navigate('/order-now', { state: { selectedPayment: 'full' } });
+                    setIsCartOpen(false); // Close wishlist/cart overlay
+                    navigate('/order-now');
                   }}
                 >
                   Proceed To Buy
